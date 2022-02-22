@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hero_up",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "10ac5c41-fb4c-4e60-8b38-4a161e31522e"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "3a1a2576-6fec-405f-a59c-d6d2facafae9"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2e47f83d-eead-416f-9ba3-e05e64b7a7d1"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "ee38f371-0476-43c0-9d6b-3436ae92d86e"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "73fc8916-c655-4da3-b2b5-806be0c67423"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

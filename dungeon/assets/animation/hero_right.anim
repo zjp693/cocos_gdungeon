@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hero_right",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "96d74611-0d98-491f-9e73-9fb801f6f777"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "0b29996a-fb49-4cab-90fa-68d89738c0cd"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "87f42f45-ef76-4624-87df-f05ad6fc7e5a"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "7a8c7ac0-efec-48a4-8e30-e53e3528bc3b"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "32a973e4-4d5f-4866-9954-503f217e251e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

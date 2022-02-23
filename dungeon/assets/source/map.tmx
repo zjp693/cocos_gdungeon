@@ -37,7 +37,7 @@
  </layer>
  <layer id="6" name="wall" width="24" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBhYwAjETEDMjESzADErELNRwXxuPHICVDBfFI+cFBXMl8cjp0IF8xnxyFHD/ZpArAXEZkAsBMXmQKwLxHpUMB8GkOOZGvFKLfMJpW9keRjAJY9NP770zYxmLqnyIH/iS9+UAlD6wpe+KQWg/IEvfRszQNIlufIg98PSNwhrQ7EOAyJ9E0r/hPQTCwZr+icECKV/SsFo+Y8f0Kv8pzR90woAANslCkc=
+   eJxjYBhYwAjETEDMjESzADErELNRwXxuPHICVDBfFI+cFBXMl8cjp0IF8xnxyFHD/ZpArAXEZkhi5kCsC8R6VDAfBpDjmRrxSi3zCaVvZHkYwCWPTT++9M2MZi6p8iB/4kvflAJQ+sKXvikFoPyBL30bM6CmS1LlQe6HpW8Q1oZiHQZE+iaU/gnpJxYM1vRPCBBK/5SC0fIfP6BX+U9p+qYVAABuBgn/
   </data>
  </layer>
  <layer id="7" name="item" width="24" height="24">

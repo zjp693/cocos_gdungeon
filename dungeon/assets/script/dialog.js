@@ -48,9 +48,15 @@ cc.Class({
   onLoad() {
     this.init([
       //   角色对应 1 是勇者 2 是大魔王
-      { role: 1, coentent: "大家好，我是勇者" },
-      { role: 2, coentent: "我是魔王" },
+      { role: 1, coentent: "大家好，我是胥永杰" },
+      { role: 2, coentent: "我是薛佳昊" },
+      { role: 1, coentent: "今天中午吃啥" },
+      { role: 2, coentent: "我还在想吃什么呢" },
+      { role: 1, coentent: "吃麦当劳吗" },
+      { role: 2, coentent: "吃你鬼" },
     ]);
+    // 控制人物运动
+    window.dialog = this.node;
     // 绑定按键
     cc.systemEvent.on("keydown", this.onkeyDown, this);
   },
@@ -106,19 +112,30 @@ cc.Class({
     );
   },
   closeDialog() {
+    //对话框的隐藏
     this.node.active = false;
   },
   //   start() {},
 
   update(dt) {
+    // console.log(this.textLabel.string);
+    // console.log(this.textLabel);
+    // console.log(window.dialog);
+
+    // 对话文字播放
     if (!this.nowText) return;
     this.tt += dt;
     if (this.tt >= 0.1) {
       if (this.textLabel.string.length < this.nowText.length) {
+        this.textLabel.string = this.nowText.slice(
+          0,
+          this.textLabel.string.length + 1
+        );
       } else {
         this.textEnd = true;
         this.nowText = null;
       }
+      this.tt = 0;
     }
   },
 });

@@ -61,6 +61,8 @@ cc.Class({
     Input[e.keyCode] = 0;
   },
   update(dt) {
+    // 对话时人物不可移动
+    if (window.dialog && window.dialog.active) return;
     //#region 人物移动逻辑
     if (Input[cc.macro.KEY.a] || Input[cc.macro.KEY.left]) {
       // console.log("向左");

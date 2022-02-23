@@ -41,17 +41,17 @@ cc.Class({
   start() {
     //#region 动态识别tiledMap的图层
     // 每一小块的距离
-    console.log(this.tiledMap);
+    // console.log(this.tiledMap);
     // console.log(this.TiledMap);
     let tiledSize = this.tiledMap.getTileSize();
     //   拿到wall城墙
     let layer = this.tiledMap.getLayer("wall");
     // 拿到块数
     let layerSize = layer.getLayerSize();
-    console.log(layerSize.width);
+    // console.log(layerSize.width);
     for (let i = 0; i < layerSize.width; i++) {
       for (let j = 0; j < layerSize.height; j++) {
-        console.log(layer);
+        // console.log(layer);
         let tiled = layer.getTiledTileAt(i, j, true);
         if (tiled.gid != 0) {
           tiled.node.group = "wall";

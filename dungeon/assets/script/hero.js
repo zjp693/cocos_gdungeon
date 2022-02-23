@@ -123,6 +123,12 @@ cc.Class({
   // start () {
 
   // },
-
+  // 碰撞回调
+  onCollisionEnter(other, self) {
+    if (other.node.group == "smog") {
+      other.node.active = false;
+      other.node.getComponent(cc.TiledTile).gid = 0;
+    }
+  },
   // update (dt) {},
 });

@@ -50,10 +50,6 @@ cc.Class({
       //   角色对应 1 是勇者 2 是大魔王
       { role: 1, coentent: "大家好，我是胥永杰" },
       { role: 2, coentent: "我是薛佳昊" },
-      { role: 1, coentent: "今天中午吃啥" },
-      { role: 2, coentent: "我还在想吃什么呢" },
-      { role: 1, coentent: "吃麦当劳吗" },
-      { role: 2, coentent: "吃你鬼" },
     ]);
     // 控制人物运动
     window.dialog = this.node;
@@ -82,7 +78,8 @@ cc.Class({
     this.textIndex = -1;
     //   赋值
     this.textDataArr = textDataArr;
-    this.node.active = true;
+    // 对话框的显示
+    this.node.active = false;
     this.nextTextData();
   },
   //   对话框
